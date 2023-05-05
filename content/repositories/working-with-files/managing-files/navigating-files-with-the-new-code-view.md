@@ -27,29 +27,29 @@ To provide feedback on the new code view beta, see the [discussion forum](https:
 {% data reusables.search.enabling-and-disabling-code-search-and-view-beta %}
 
 ## Using the file tree view
-The new file tree view is a panel that displays a repository's directories and files within an easily navigable tree. You can move between directories and files quickly and understand the context for each item you view.
+The new file tree view is a panel that displays a repository's directories and files within an easily navigable tree.
 
-1. Select a repository, then click a directory or file within that repository to open the file tree view.
-1. To search for a specific directory or file, in the file tree view, click the {% octicon "filter" aria-hidden="true" %} **Jump to file** search bar, then type the directory or file name and select the directory or file from the results. You can view the file path for a directory or file below each search result.
+1. Select a repository **>** click a directory or file to open the file tree view.
+1. To search, click the {% octicon "filter" aria-hidden="true" %} **Jump to file** search bar **>** enter the directory or file name and select the directory or file from results. You can view the file path for a directory or file below each search result.
 
   ![Screenshot of the file tree view for a repository. A search bar, labeled "Jump to file", is outlined in dark orange.](/assets/images/help/repository/file-tree-view-jump-to-file.png)
 
      - To search within the repository using the {% data variables.product.prodname_dotcom %} search bar, click {% octicon "search" aria-label="The search icon" %} in the file tree view.
 
-1. To switch between branches, select the {% octicon "git-branch" aria-hidden="true" %} branch dropdown menu, then click the desired branch from the results. To view all branches for a repository, click **View all branches**.
+1. To switch between branches, select the {% octicon "git-branch" aria-hidden="true" %} branch dropdown menu **>** click the desired branch from results. To view all branches for a repository, click **View all branches**.
 
   ![Screenshot of the file tree view for a repository. A dropdown menu for switching branches is expanded and outlined in dark orange.](/assets/images/help/repository/file-tree-view-branch-dropdown.png)
 
-1. To switch between tags, select the {% octicon "git-branch" aria-hidden="true" %} branch dropdown menu, click the **Tags** tab, then click the desired tag from the results. To view all tags for a repository, click **View all tags**.
+1. To switch between tags, select the {% octicon "git-branch" aria-hidden="true" %} branch dropdown menu **>** click the **Tags** tab **>** click the desired tag from the results. To view all tags for a repository, click **View all tags**.
 
   ![Screenshot of the file tree view. A dropdown menu for switching branches is expanded, and a tab, labeled "Tags", is outlined in dark orange.](/assets/images/help/repository/file-tree-view-branch-dropdown-tags.png)
 
 ## Working with files
 The new code view also includes updates to the ways in which you work with files. Existing functionality like editing a file, creating or uploading a file, and deleting a file or directory has been streamlined. You now have quick access to editing a file in github.dev or {% data variables.product.prodname_desktop %} and an integrated search-in-file function.
 
-1. Select a repository, then click a file within that repository to open the new code view.
+1. Select a repository **>** click a file within that repository to open the new code view.
 1. To edit a file in the integrated file editor, click {% octicon "pencil" aria-label="The pencil icon" %}.
-1. To edit a file on the {% data variables.codespaces.serverless %} web-based editor or {% data variables.product.prodname_desktop %}, select {% octicon "triangle-down" aria-label="The downwards-facing triangle icon" %} next to {% octicon "pencil" aria-label="The pencil icon" %}, then click either **github.dev** or **{% data variables.product.prodname_desktop %}**.
+1. To edit a file on the {% data variables.codespaces.serverless %} web-based editor or {% data variables.product.prodname_desktop %}, select {% octicon "triangle-down" aria-label="The downwards-facing triangle icon" %} next to {% octicon "pencil" aria-label="The pencil icon" %} **>** click either **github.dev** or **{% data variables.product.prodname_desktop %}**.
 
   {% note %}
 
@@ -57,7 +57,7 @@ The new code view also includes updates to the ways in which you work with files
 
   {% endnote %}
 
-1. To find specific characters within a file, view the raw code of the file by clicking the **Code** button. Next, press <kbd>Command</kbd>+<kbd>F</kbd> (Mac) or <kbd>Ctrl</kbd>+<kbd>F</kbd> (Windows/Linux) and type the characters you want to find. You can navigate between results by pressing <kbd>Return</kbd> (Mac) or <kbd>Enter</kbd> (Windows/Linux), or by clicking {% octicon "chevron-down" aria-label="The downwards-facing chevron icon" %} and {% octicon "chevron-up" aria-label="The upwards-facing chevron icon" %}.
+1. To find specific characters within a file, click the **Code** button to view the raw code of the file. Use browser's default search feature <kbd>Command</kbd>+<kbd>F</kbd> (Mac) or <kbd>Ctrl</kbd>+<kbd>F</kbd> (Windows/Linux) and type the characters. The page highlights search results.
 
   {% note %}
 
@@ -65,11 +65,11 @@ The new code view also includes updates to the ways in which you work with files
 
   {% endnote %}
 
-1. To create a new file in a specific directory, navigate to the chosen directory. Next, select the **Add file** {% octicon "triangle-down" aria-label="The downwards-facing triangle icon" %} dropdown menu, then click {% octicon "plus" aria-label="The plus sign icon" %} **Create new file**.
+1. To create a new file in a specific directory, navigate to the chosen directory. Select the **Add file** {% octicon "triangle-down" aria-label="The downwards-facing triangle icon" %} dropdown menu **>** click {% octicon "plus" aria-label="The plus sign icon" %} **Create new file**.
 
   Alternatively, you can click {% octicon "plus" aria-label="The plus sign icon" %} in the file tree view.
-1. To delete a directory or file, navigate to the directory or file and click {% octicon "kebab-horizontal" aria-label="The horizontal kebab icon" %} . Then, click **Delete directory** or **Delete file**.
-1. To upload a file, navigate to the chosen directory. Next, select the **Add file** {% octicon "triangle-down" aria-label="The downwards-facing triangle icon" %} dropdown menu, then click {% octicon "upload" aria-label="The upload icon" %} **Upload files**.
+1. To delete a directory or file, navigate to the directory or file and click {% octicon "kebab-horizontal" aria-label="The horizontal kebab icon" %} . Click **Delete directory** or **Delete file**.
+1. To upload a file, navigate to the chosen directory. Select the **Add file** {% octicon "triangle-down" aria-label="The downwards-facing triangle icon" %} dropdown menu **>** click {% octicon "upload" aria-label="The upload icon" %} **Upload files**.
 
   Alternatively, you can drag and drop files into your browser.
 
